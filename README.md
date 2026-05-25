@@ -18,7 +18,6 @@ Umgesetzt wurden:
 - Weitere hilfreiche Endpunkte:
   - `/api/status`
   - `/api/library/issues`
-  - `/api/library/analysis`
 - Unit-Tests fuer Parser- und Analytics-Logik
 - Parser-Logging mit taeglicher Datei-Rollierung in `Backend/Logs/parser-YYYY-MM-DD.log`
 
@@ -41,7 +40,6 @@ Die wichtigsten Endpunkte des Backends sind:
 - `/api/library/overdue_loans`: liefert ueberfaellige Ausleihen fuer das Frontend
 - `/api/library/most_loaned_books`: liefert die meistgeliehenen Buecher pro Genre
 - `/api/library/average_loan_period`: liefert die durchschnittliche Leihdauer
-- `/api/library/analysis`: kombinierter Endpunkt mit mehreren Auswertungen in einer Antwort
 
 Fuer das Angular-Frontend wird vor allem `/api/library/overdue_loans` verwendet.
 

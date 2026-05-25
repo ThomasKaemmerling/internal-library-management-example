@@ -51,23 +51,6 @@ app.MapGet("/api/status", () =>
 })
 .WithName("GetApiStatus");
 
-app.MapGet("/api/library/analysis", (LibraryXmlParser parser, LibraryAnalyticsService analytics, IWebHostEnvironment environment) =>
-{
-    var xmlPath = Path.Combine(environment.ContentRootPath, "library.xml");
-    var parseResult = parser.ParseFile(xmlPath);
-    var today = DateOnly.FromDateTime(DateTime.UtcNow);
-
-    return Results.Ok(new
-    {
-        parseIssues = parseResult.Issues,
-        overdueLoans = analytics.GetOverdueLoans(parseResult.Data, today),
-        topBorrowedBooksPerGenre = analytics.GetTopBorrowedBooksPerGenre(parseResult.Data),
-        averageLoanDurationDays = analytics.GetAverageLoanDurationDays(parseResult.Data),
-        mostActiveBorrowers = analytics.GetMostActiveBorrowers(parseResult.Data)
-    });
-})
-.WithName("GetLibraryAnalysis");
-
 app.MapGet("/api/library/issues", (LibraryXmlParser parser, IWebHostEnvironment environment) =>
 {
     var xmlPath = Path.Combine(environment.ContentRootPath, "library.xml");
