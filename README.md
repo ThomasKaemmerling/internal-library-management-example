@@ -179,13 +179,24 @@ Zusaetzlich wurden die Analytics-Methoden separat getestet, insbesondere:
 
 Diese Tests sichern die fachliche Berechnung ab und trennen Parsing-Probleme von Analyse-Problemen.
 
+Im Frontend wurden zusaetzlich gezielte Component-Tests fuer die zentrale Ansicht implementiert:
+
+- `Frontend/src/app/overdue-loans.component.spec.ts`
+
+Abgedeckt werden dort insbesondere:
+
+- initialer Ladezustand und anschliessendes Rendering der geladenen Daten
+- Fehlerfall bei nicht erreichbarem Backend mit nutzerfreundlicher Meldung
+- Filterlogik (case-insensitive) fuer Name, EmployeeId und Buchtitel
+- erneutes Laden ueber den Reload-Button
+
+Diese Tests wurden bewusst ausgewaehlt, weil sie die wichtigsten Benutzerfluesse der Aufgabe absichern: Daten laden, Fehler transparent machen, relevante Treffer schnell finden und Daten manuell aktualisieren. Genau diese Punkte entscheiden in der Praxis, ob die Komponente als UI fuer den Endpunkt `/api/library/overdue_loans` zuverlaessig nutzbar ist.
+
 ### Was wurde bewusst nicht getestet und warum?
 
 Nicht oder nur indirekt getestet wurden bewusst jene Bereiche, die für die fachliche Kernlogik weniger relevant sind oder typischerweise in Integrations‑ bzw. End‑to‑End‑Tests abgedeckt werden. Dazu gehören:
 
 vollständige API‑Integrationstests der HTTP‑Endpunkte
-
-UI‑ oder Component‑Tests des Angular‑Frontends
 
 das konkrete Logging‑Verhalten auf Dateisystem‑Ebene
 
@@ -234,7 +245,16 @@ Frontend laeuft standardmaessig auf `http://localhost:4200`.
 
 ## Tests ausfuehren
 
+### Backend
+
 ```powershell
 Set-Location E:\projects\example_app\Backend.Tests
 dotnet test
+```
+
+### Frontend
+
+```powershell
+Set-Location E:\projects\example_app\Frontend
+npx ng test --watch=false
 ```
