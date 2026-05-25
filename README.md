@@ -1,5 +1,34 @@
 # Bewerbungsaufgabe - Loesung
 
+## Schaetzung (Aufwand)
+
+Die folgende Schaetzung bezieht sich auf die vorliegende Loesung (Backend, Frontend, Tests, Doku, Repo-Hygiene, CI-Build-Workflow).
+
+- Mit KI-Unterstuetzung: ca. **4-8 Stunden**
+  - realer Aufwand mit KI: **5,5-6,5 Stunden**
+- Ohne KI-Unterstuetzung: ca. **8-18 Stunden**
+
+
+
+Warum diese Schaetzung sinnvoll ist:
+
+- Die reine Implementierung (API, Parsing, Analytics, Angular-Komponente) ist nur ein Teil des Aufwands; Setup, Fehlersuche und Stabilisierung kosten ebenfalls spuerbar Zeit.
+- Ohne KI dauert vor allem die Recherche zu Framework-Details, Testaufbau und Fehlermustern laenger (z. B. Angular Testkonfiguration, .NET Build-/Run-Fallen, CI-YAML).
+- Mit KI wird die Geschwindigkeit bei Boilerplate, Testentwuerfen, Doku-Formulierungen und Troubleshooting deutlich hoeher, aber fachliche Entscheidungen und Validierung bleiben Handarbeit.
+- Der Zeitvorteil durch KI liegt in diesem Fall grob bei **45-60 %**, weil Recherche, Boilerplate und erste Testentwuerfe deutlich beschleunigt wurden, waehrend fachliche Entscheidungen und Validierung weiterhin manuell erfolgt sind.
+- Die Spannbreite entsteht durch Erfahrungsniveau und Randbedingungen (z. B. bekannte Toolchain vs. neue Versionen, lokale Build-Probleme, saubere Repo-Aufbereitung).
+
+Pragmatische Einordnung fuer diese Aufgabe:
+
+- Mit KI: von der Idee in kurzer Zeit zu einem lauffaehigen Stand, mit Fokus auf Qualitaet (Tests, README, CI).
+- Ohne KI: gleicher Funktionsumfang realistisch mit etwa doppelter bis knapp dreifacher Nettozeit, vor allem durch mehr Recherche- und Iterationsaufwand.
+
+## Transparenz zum KI-Einsatz
+
+Bei der Umsetzung habe ich KI unterstuetzend fuer Entwuerfe, Boilerplate und Formulierungshilfen genutzt.
+Die fachliche Konzeption, Architekturentscheidungen, Anpassungen an die Anforderungen, Debugging, Testaufbau und finale Validierung habe ich selbst uebernommen.
+Alle Vorschlaege wurden von mir geprueft und projektspezifisch angepasst.
+
 ## Projektstruktur
 
 - `Backend`: ASP.NET Core Web API fuer XML-Parsing und Auswertungen
