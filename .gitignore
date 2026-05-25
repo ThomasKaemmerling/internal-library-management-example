@@ -1,0 +1,22 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+Backend/Logs/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+TestResults/
+
+# Angular / Node artifacts
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.angular/
+Frontend/coverage/
+
+# NuGet
+*.nupkg
