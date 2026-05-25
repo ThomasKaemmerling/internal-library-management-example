@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <books>
+    <book id="B001">
+      <title>Clean Code</title>
+      <author>Robert C. Martin</author>
+      <genre>Fachbuch</genre>
+      <publishedYear>2008</publishedYear>
+    </book>
+    <book id="B002">
+      <title>Domain-Driven Design</title>
+      <author>Eric Evans</author>
+      <genre>Fachbuch</genre>
+      <publishedYear>2003</publishedYear>
+    </book>
+    <book id="B003">
+      <title>The Pragmatic Programmer</title>
+      <author>Andrew Hunt</author>
+      <genre>Fachbuch</genre>
+      <publishedYear>1999</publishedYear>
+    </book>
+    <book id="B004">
+      <title>Refactoring</title>
+      <author>Martin Fowler</author>
+      <genre>Fachbuch</genre>
+      <publishedYear>1999</publishedYear>
+    </book>
+    <book id="B005">
+      <title>Der Schwarm</title>
+      <author>Frank Schätzing</author>
+      <genre>Roman</genre>
+      <publishedYear>2004</publishedYear>
+    </book>
+    <book id="B006">
+      <title>Schachnovelle</title>
+      <author>Stefan Zweig</author>
+      <genre>Roman</genre>
+      <publishedYear>1942</publishedYear>
+    </book>
+    <book id="B007">
+      <title>Die Vermessung der Welt</title>
+      <author>Daniel Kehlmann</author>
+      <genre>Roman</genre>
+      <publishedYear>2005</publishedYear>
+    </book>
+    <book id="B008">
+      <title>Sapiens</title>
+      <author>Yuval Noah Harari</author>
+      <genre>Sachbuch</genre>
+      <publishedYear>2011</publishedYear>
+    </book>
+    <book id="B009">
+      <title>Eine kurze Geschichte der Zeit</title>
+      <author>Stephen Hawking</author>
+      <genre>Sachbuch</genre>
+      <publishedYear>1988</publishedYear>
+    </book>
+    <book id="B010">
+      <title>Steve Jobs</title>
+      <author>Walter Isaacson</author>
+      <genre>Biografie</genre>
+      <publishedYear>2011</publishedYear>
+    </book>
+    <book id="B011">
+      <title>Die Tante Jolesch</title>
+      <author>Friedrich Torberg</author>
+      <genre>Biografie</genre>
+      <publishedYear>1975</publishedYear>
+    </book>
+    <book id="B012">
+      <title>Tannöd</title>
+      <author>Andrea Maria Schenkel</author>
+      <genre>Krimi</genre>
+      <publishedYear>2006</publishedYear>
+    </book>
+    <book id="B013">
+      <title>Tintenherz</title>
+      <author>Cornelia Funke</author>
+      <genre>Roman</genre>
+      <publishedYear>2003</publishedYear>
+    </book>
+    <book id="B014">
+      <title>Wien und der Wein</title>
+      <author>Christoph Wagner</author>
+      <genre>Sachbuch</genre>
+      <publishedYear>2006</publishedYear>
+    </book>
+  </books>
+  <loans>
+    <loan id="L001">
+      <bookRef>B001</bookRef>
+      <borrower>
+        <employeeId>E001</employeeId>
+        <name>Anna Schmidt</name>
+      </borrower>
+      <loanDate>2025-09-10</loanDate>
+      <dueDate>2025-10-10</dueDate>
+      <returnDate>2025-10-08</returnDate>
+    </loan>
+    <loan id="L002">
+      <bookRef>B003</bookRef>
+      <borrower>
+        <employeeId>E002</employeeId>
+        <name>Markus Becker</name>
+      </borrower>
+      <loanDate>2025-10-01</loanDate>
+      <dueDate>2025-11-01</dueDate>
+      <returnDate>2025-11-15</returnDate>
+    </loan>
+    <loan id="L003">
+      <bookRef>B005</bookRef>
+      <borrower>
+        <employeeId>E003</employeeId>
+        <name>Julia Hoffmann</name>
+      </borrower>
+      <loanDate>2025-11-20</loanDate>
+      <dueDate>2025-12-20</dueDate>
+      <returnDate>2025-12-18</returnDate>
+    </loan>
+    <loan id="L004">
+      <bookRef>B002</bookRef>
+      <borrower>
+        <employeeId>E001</employeeId>
+        <name>Anna Schmidt</name>
+      </borrower>
+      <loanDate>2026-01-05</loanDate>
+      <dueDate>2026-02-05</dueDate>
+      <returnDate />
+    </loan>
+    <loan id="L005">
+      <bookRef>B008</bookRef>
+      <borrower>
+        <employeeId>E004</employeeId>
+        <name>Tobias Wagner</name>
+      </borrower>
+      <loanDate>2026-02-10</loanDate>
+      <dueDate>2026-03-10</dueDate>
+      <returnDate>2026-03-05</returnDate>
+    </loan>
+    <loan id="L006">
+      <bookRef>B001</bookRef>
+      <borrower>
+        <employeeId>E005</employeeId>
+        <name>Nina Krüger</name>
+      </borrower>
+      <loanDate>2026-02-15</loanDate>
+      <dueDate>2026-03-15</dueDate>
+      <returnDate />
+    </loan>
+    <loan id="L007">
+      <bookRef>B004</bookRef>
+      <borrower>
+        <employeeId>E002</employeeId>
+        <name>Markus Becker</name>
+      </borrower>
+      <loanDate>2026-03-01</loanDate>
+      <dueDate>2026-04-01</dueDate>
+      <returnDate />
+    </loan>
+    <loan id="L008">
+      <bookRef>B010</bookRef>
+      <borrower>
+        <employeeId>E006</employeeId>
+        <name>Daniel Lehmann</name>
+      </borrower>
+      <loanDate>2026-03-15</loanDate>
+      <dueDate>2026-04-15</dueDate>
+      <returnDate />
+    </loan>
+    <loan id="L009">
+      <bookRef>B007</bookRef>
+      <borrower>
+        <employeeId>E007</employeeId>
+        <name>Sarah Engel</name>
+      </borrower>
+      <loanDate>2026-04-01</loanDate>
+      <dueDate>2026-05-01</dueDate>
+      <returnDate>2026-04-28</returnDate>
+    </loan>
+    <loan id="L010">
+      <bookRef>B011</bookRef>
+      <borrower>
+        <employeeId>E003</employeeId>
+        <name>Julia Hoffmann</name>
+      </borrower>
+      <loanDate>2026-04-10</loanDate>
+      <dueDate>2026-05-10</dueDate>
+      <returnDate />
+    </loan>
+    <loan id="L011">
+      <bookRef>B012</bookRef>
+      <borrower>
+        <employeeId>E004</employeeId>
+        <name>Tobias Wagner</name>
+      </borrower>
+      <loanDate>2026-04-15</loanDate>
+      <dueDate>2026-05-15</dueDate>
+      <returnDate />
+    </loan>
+    <loan id="L012">
+      <bookRef>B003</bookRef>
+      <borrower>
+        <employeeId>E005</employeeId>
+        <name>Nina Krüger</name>
+      </borrower>
+      <loanDate>2026-04-20</loanDate>
+      <dueDate>2026-05-20</dueDate>
+      <returnDate />
+    </loan>
+    <loan id="L013">
+      <bookRef>B001</bookRef>
+      <borrower>
+        <employeeId>E007</employeeId>
+        <name>Sarah Engel</name>
+      </borrower>
+      <loanDate>2025-06-01</loanDate>
+      <dueDate>2025-07-01</dueDate>
+      <returnDate>2025-06-25</returnDate>
+    </loan>
+    <loan id="L014">
+      <bookRef>B001</bookRef>
+      <borrower>
+        <employeeId>E002</employeeId>
+        <name>Markus Becker</name>
+      </borrower>
+      <loanDate>2025-12-01</loanDate>
+      <dueDate>2026-01-01</dueDate>
+      <returnDate>2025-12-22</returnDate>
+    </loan>
+    <loan id="L015">
+      <bookRef>B006</bookRef>
+      <borrower>
+        <employeeId>E001</employeeId>
+        <name>Anna Schmidt</name>
+      </borrower>
+      <loanDate>2025-08-10</loanDate>
+      <dueDate>2025-09-10</dueDate>
+      <returnDate>2025-09-09</returnDate>
+    </loan>
+    <loan id="L016">
+      <bookRef>B009</bookRef>
+      <borrower>
+        <employeeId>E006</employeeId>
+        <name>Daniel Lehmann</name>
+      </borrower>
+      <loanDate>2025-07-15</loanDate>
+      <dueDate>2025-08-15</dueDate>
+      <returnDate>2025-08-12</returnDate>
+    </loan>
+    <loan id="L017">
+      <bookRef>B013</bookRef>
+      <borrower>
+        <employeeId>E003</employeeId>
+        <name>Julia Hoffmann</name>
+      </borrower>
+      <loanDate>2026-01-20</loanDate>
+      <dueDate>2026-02-20</dueDate>
+      <returnDate>2026-02-15</returnDate>
+    </loan>
+    <loan id="L018">
+      <bookRef>B014</bookRef>
+      <borrower>
+        <employeeId>E004</employeeId>
+        <name>Tobias Wagner</name>
+      </borrower>
+      <loanDate>2025-11-01</loanDate>
+      <dueDate>2025-12-01</dueDate>
+      <returnDate>2025-11-28</returnDate>
+    </loan>
+  </loans>
+</library>

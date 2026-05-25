@@ -1,0 +1,9 @@
+﻿2026-05-24 15:57:56.388 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-24 15:57:56.397 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-24 15:57:56.409 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-24 16:04:08.990 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-24 16:04:09.000 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-24 16:04:09.005 [Warning] Backend.Services.LibraryXmlParser: Parse issue invalid_published_year: Book 'B002' has invalid publishedYear '200f3'. (line 10, position 6)
+2026-05-24 16:04:09.006 [Warning] Backend.Services.LibraryXmlParser: Parse issue missing_element: Required element 'author' is missing. (line 16, position 6)
+2026-05-24 16:04:09.007 [Warning] Backend.Services.LibraryXmlParser: Parse issue missing_element: Required element 'genre' is missing. (line 16, position 6)
+2026-05-24 16:04:09.016 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 12, Loans: 18, Issues: 6.

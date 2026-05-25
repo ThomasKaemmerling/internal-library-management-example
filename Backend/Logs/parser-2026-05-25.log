@@ -1,0 +1,72 @@
+﻿2026-05-25 10:50:56.661 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 10:50:56.664 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 10:50:56.668 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 10:50:58.674 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 10:50:58.676 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 10:50:58.678 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 10:50:59.314 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 10:50:59.316 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 10:50:59.318 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 10:55:38.484 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 10:55:38.486 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 10:55:38.488 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 10:55:38.645 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 10:55:38.647 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 10:55:38.649 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 10:55:53.986 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 10:55:53.988 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 10:55:53.989 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 10:57:02.115 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 10:57:02.117 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 10:57:02.118 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 10:58:17.914 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 10:58:17.915 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 10:58:17.916 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:00:16.349 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:00:16.350 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:00:16.352 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:00:19.281 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:00:19.283 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:00:19.284 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:00:23.839 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:00:23.840 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:00:23.842 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:00:25.352 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:00:25.354 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:00:25.355 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:00:33.203 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:00:33.204 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:00:33.205 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:00:51.221 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:00:51.222 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:00:51.224 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:00:52.271 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:00:52.273 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:00:52.274 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:01:19.944 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:01:19.945 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:01:19.946 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:01:27.334 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:01:27.335 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:01:27.336 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:04:01.549 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:04:01.550 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:04:01.551 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:08:27.253 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:08:27.254 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:08:27.255 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:08:30.972 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:08:30.974 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:08:30.975 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:08:45.452 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:08:45.454 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:08:45.455 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:08:51.161 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:08:51.162 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:08:51.164 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:08:54.108 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:08:54.109 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:08:54.112 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.
+2026-05-25 11:08:57.222 [Information] Backend.Services.LibraryXmlParser: Reading XML file E:\projects\example_app\Backend\library.xml.
+2026-05-25 11:08:57.224 [Information] Backend.Services.LibraryXmlParser: Parsing XML content.
+2026-05-25 11:08:57.225 [Information] Backend.Services.LibraryXmlParser: Finished parsing XML. Books: 14, Loans: 18, Issues: 0.

@@ -1,0 +1,67 @@
+@if (vm$ | async; as vm) {
+  <section class="card">
+    <header class="header-row">
+      <div>
+        <h1>Ueberfaellige Ausleihen</h1>
+        <p class="hint">Datenquelle: Backend-Endpunkt /api/library/overdue_loans</p>
+      </div>
+      <button type="button" (click)="loadOverdueLoans()" [disabled]="vm.loading">
+        {{ vm.loading ? 'Lade...' : 'Neu laden' }}
+      </button>
+    </header>
+
+    <label class="filter" for="borrowerFilter">Filter nach Ausleihenden (Name, Buchtitel oder EmployeeId)</label>
+    <input
+      id="borrowerFilter"
+      type="text"
+      [value]="vm.borrowerFilter"
+      (input)="onFilterChange($event)"
+      placeholder="z. B. Anna, Clean Code oder E001" />
+
+    @if (vm.error) {
+      <p class="error">{{ vm.error }}</p>
+    }
+
+    @if (vm.validationIssues.length > 0) {
+      <div class="issues">
+        <p><strong>Parser-Hinweise:</strong></p>
+        <ul>
+          @for (issue of vm.validationIssues; track issue.code + issue.message) {
+            <li>{{ issue.code }}: {{ issue.message }}</li>
+          }
+        </ul>
+      </div>
+    }
+
+    @if (!vm.loading && !vm.error) {
+      @if (vm.filteredLoans.length === 0) {
+        <p class="empty">Keine passenden ueberfaelligen Ausleihen gefunden.</p>
+      } @else {
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>LoanId</th>
+                <th>Buch</th>
+                <th>Ausleihende</th>
+                <th>Faellig seit</th>
+                <th>Tage ueberfaellig</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (loan of vm.filteredLoans; track loan.loanId) {
+                <tr>
+                  <td>{{ loan.loanId }}</td>
+                  <td>{{ loan.bookTitle }} ({{ loan.bookId }})</td>
+                  <td>{{ loan.borrowerName }} ({{ loan.employeeId }})</td>
+                  <td>{{ loan.dueDate }}</td>
+                  <td>{{ loan.daysOverdue }}</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      }
+    }
+  </section>
+}
